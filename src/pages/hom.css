@@ -1,0 +1,152 @@
+/*  HOME CSS */
+
+.flex_div1{
+    display: flex;
+    min-height: 300px;
+ 
+    align-items: center;
+    width: 90%;
+    
+
+    flex-direction: row;
+}
+.top_name_signout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+.signout{
+    color: #fff;
+    background: black;
+    cursor: pointer;
+    word-spacing: 10px;
+    padding: 10px;
+ font-weight: 700;
+    border-radius: 10px;
+}
+.pure{
+    margin: 10px;
+    color: green !important;
+    font-size: small;
+    font-weight: 600;
+}
+.welcome{
+    color: #fff;
+    text-align: start;
+    width: 80%;
+    margin: 30px;
+}
+
+.impure{
+    font-size: small;
+    font-weight: 600;
+    margin: 10px;
+    color: red !important;
+}
+
+.submodsub   span{
+    margin-left: 0px !important;
+    color: #fff ;
+    padding-right: 5px;
+}
+.MuiSlider-valueLabelLabel{
+    padding-right: 0 !important;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    width: 100%;
+    background: rgb(12,8,69);
+    background: linear-gradient(180deg, rgba(12,8,69,1) 0%, rgba(55,52,85,1) 46%, rgba(0,0,0,1) 100%);
+    justify-content: center;
+  
+   height: 100%;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.submod2{
+    width: 75% !important;
+}
+.submodsub h6{
+    color: #fff;
+}
+
+.flex_sub{
+    width: 50%;
+    text-align: center;
+ 
+    background-color: #0b0b0b84;   
+
+    border-radius: 12px;
+  padding: 7px;
+  
+    box-shadow: 0 10px 15px rgba(57, 57, 57, 0.092);
+    box-sizing: border-box;
+    width: calc(100% - 4rem);
+    color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(33px);
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+ justify-content: center;
+ min-height: 300px;
+   align-items: center;
+
+height: max-content;
+    margin: 10px;
+}
+.flex_sub p{
+    color: white;
+}
+.switch{
+  margin-bottom: 20px;
+}
+.flex_sub h2{
+    margin-bottom: 25px;
+    color: #fff;
+}
+.flex_sub h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.submod{
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 30px;
+    flex-direction: row;
+}
+@media screen and (max-width: 1200px) {
+    .flex_div1{
+flex-direction: column;
+    }
+    .submod{
+        gap: 20px;
+        flex-direction: column
+        ;
+    }
+    .home{
+        height:100%;
+        flex-direction: column;
+    }
+    .flex_sub{
+        width: 100% !important;
+    }
+    .span{
+        margin-left: 0;
+    }
+    .welcome{
+        color: #fff;
+        text-align: start;
+        width: 80%;
+        font-size: small;
+        margin: 30px;
+    }
+
+}
